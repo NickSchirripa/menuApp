@@ -1,0 +1,134 @@
+
+/*
+TO DO
+1.style popUp box
+2.Create header
+3.make + icon have a circle around it
+4.add pointer to + button
+5.finish all style then clean up
+*/
+
+
+body {
+    margin: 0;
+   padding: 0;
+} 
+
+main{
+    width: 400;
+    margin: 0 auto;
+}
+
+header{
+    
+}
+
+.emoji{
+    font-size:78.2px;
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.item{
+    width: 508px;
+    height: 140px ;
+    margin: 50 0;
+}
+
+
+.menu-inner{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.menuPic{
+    
+}
+
+#line{
+    margin-top: 0px;
+    width: 400;
+}
+
+
+
+
+/*cart*/
+
+.removeBtn{
+    border:none;
+    cursor: pointer;
+    background-color: transparent;
+    color:red
+
+}
+
+
+#order{
+    display: none;
+}
+
+#checkoutBtn{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*pop up*/
+
+.checkoutPop{
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.popInner{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.closePopContainer{
+    text-align: right;
+    margin: 9px;
+}
+
+.closePopBtn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: red;
+    cursor: pointer;
+  }
+
+
+  input{
+    
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+#submitBtn{
+    margin: 20 auto;
+    color: black;
+    cursor: pointer;
+}
